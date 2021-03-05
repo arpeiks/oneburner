@@ -29,7 +29,9 @@ const Footer = () => {
                     <span className="font-weight-bold">Get in touch</span>
                   </FLink>
                   <br />
-                  <FLink className="phone">+234-80-000-0000</FLink>
+                  <FLink>
+                    <span className="phone my-4">+234-80-000-0000</span>
+                  </FLink>
                 </Col>
                 <Col xl={7} md={8} className="mb-5">
                   <Row>
@@ -142,6 +144,10 @@ const Root = styled.div`
       display: block;
       line-height: 28px;
     }
+  }
+
+  .phone {
+    font-size: 1.4em !important;
   }
 
   .copyright {

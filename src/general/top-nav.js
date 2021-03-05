@@ -16,7 +16,7 @@ const TopNav = () => {
         <Row className="justify-content-center">
           <Col xl={10}>
             <Navbar expand="lg">
-              <Navbar.Brand href="#home">
+              <Navbar.Brand href="/">
                 <img
                   alt=""
                   height="60"
@@ -28,7 +28,7 @@ const TopNav = () => {
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto align-items-start align-items-lg-center">
                   <NavDropdown title="Product" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">
+                    {/* <NavDropdown.Item href="#action/3.1">
                       Action
                     </NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">
@@ -40,14 +40,14 @@ const TopNav = () => {
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action/3.4">
                       Separated link
-                    </NavDropdown.Item>
+                    </NavDropdown.Item> */}
                   </NavDropdown>
                   <Nav.Link href="#home">Pricing</Nav.Link>
-                  <Nav.Link href="#link">Enterprise</Nav.Link>
+                  <Nav.Link href="/enterprise">Enterprise</Nav.Link>
                   <Nav.Link href="#link">Support</Nav.Link>
                 </Nav>
                 <Nav className="align-items-start align-items-lg-center">
-                  <Nav.Link href="#link">Contact Sales</Nav.Link>
+                  <Nav.Link href="/contact">Contact Sales</Nav.Link>
                   <Nav.Link href="#link">Support</Nav.Link>
                   <Nav.Link>
                     <Button>Try For Free</Button>
