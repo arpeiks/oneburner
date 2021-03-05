@@ -12,6 +12,15 @@ code {
     monospace;
 }
 
+@font-face {
+  font-family: "Sofia Pro";
+  src: local("Sofia Pro"), url(./fonts/SofiaProLightAz.otf) format("opentype"),
+    url(./fonts/SofiaProMediumAz.otf) format("opentype"),
+    url(./fonts/SofiaProRegularAz.otf) format("opentype"),
+    url(./fonts/SofiaProSemiBoldAz.otf) format("opentype"),
+    url(./fonts/SofiaProExtraLightAz.otf) format("opentype");
+}
+
 * {
   font-family: "Sofia Pro";
 }
